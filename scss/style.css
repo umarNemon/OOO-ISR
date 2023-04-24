@@ -26,6 +26,12 @@ header .navbar .drop_menu {
   font-size: 14px;
 }
 
+.black {
+  background-image: url("/img/menubur.svg");
+  background-size: contain;
+  border: 1px solid black;
+}
+
 .cursor {
   cursor: pointer;
 }
@@ -34,6 +40,11 @@ header .navbar .drop_menu {
   height: 781px;
   background-color: #2E3192;
   color: white;
+}
+@media (max-width: 770px) {
+  .slid {
+    height: 700px;
+  }
 }
 .slid .slid_width {
   width: 1000px;
@@ -47,17 +58,12 @@ header .navbar .drop_menu {
 @media (max-width: 770px) {
   .slid .slid_width {
     grid-template-columns: 1fr;
-    width: 700px;
+    width: 100%;
   }
 }
 @media (max-width: 570px) {
   .slid .slid_width {
-    width: 500px;
-  }
-}
-@media (max-width: 400px) {
-  .slid .slid_width {
-    width: 380px;
+    width: 100%;
   }
 }
 .slid .slid_width .title {
@@ -73,7 +79,6 @@ header .navbar .drop_menu {
 }
 @media (max-width: 518px) {
   .slid .slid_width .title {
-    width: 400px;
     padding-top: 30px;
     padding-left: 20px;
   }
@@ -90,8 +95,17 @@ header .navbar .drop_menu {
 }
 @media (max-width: 518px) {
   .slid .slid_width .item img {
-    width: 400px;
+    width: 100%;
     padding-top: 30px;
     padding-left: 0px;
+  }
+}
+
+.title_main, .title {
+  padding-top: 160px;
+}
+@media (max-width: 770px) {
+  .title_main, .title {
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
