@@ -32,14 +32,14 @@ header{
 .cursor{
     cursor: pointer;
 }
-.slid{
+.slidd{
     height: 781px;
     background-color: #2E3192;
     color: white;
      @media (max-width:770px) {
         height: 700px;
      }
-    .slid_width{
+    .slidd_width{
         width: 1000px;
         margin: 0 auto;
         display: grid;
@@ -92,5 +92,53 @@ header{
     padding-top: 160px;
     @media (max-width:770px){
         padding-top: 30px;
+    }
+}
+.slicc{
+    height: 700px;
+    text-align: center;
+    h2{
+        margin-bottom: 30px;
+    }
+}
+
+.slider{
+    width: 1200px;
+    margin: 0 auto;
+    @media (max-width: 770px) {
+        width: auto;
+    }
+    .title{
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .card{
+        margin-left: 30px;
+        @media (max-width:600px) {
+            margin-left: 50px;
+        }
+    }
+    .slick-prev {
+        left: -25px;
+        background-image:url("/img/slid/angle-left.svg");
+        background-size:cover;
+        @media (max-width:770px) {
+            left: 13px;
+        }
+     }
+    .slick-next:before {
+        display: none;
+    }
+    .slick-prev:before{
+        display: none;
+    }
+    .slick-next {
+        right: -5px;
+        background-image:url("/img/slid/angle-right.svg");
+        background-size:cover;
+        @media (max-width:770px) {
+            right: 30px;
+        }
     }
 }
