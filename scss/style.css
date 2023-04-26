@@ -26,10 +26,10 @@ header .navbar .drop_menu {
   font-size: 14px;
 }
 
-.black {
-  background-image: url("/img/menubur.svg");
+.navbar-toggler {
+  background-image: url("/img/menu.svg");
   background-size: contain;
-  border: 1px solid black;
+  border: none;
 }
 
 .cursor {
@@ -102,7 +102,7 @@ header .navbar .drop_menu {
 }
 
 .title_main, .title {
-  padding-top: 160px;
+  padding-top: 30px;
 }
 @media (max-width: 770px) {
   .title_main, .title {
@@ -165,4 +165,75 @@ header .navbar .drop_menu {
   .slider .slick-next {
     right: 30px;
   }
+}
+
+.why {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+@media (max-width: 800px) {
+  .why {
+    width: 100%;
+  }
+}
+.why h3 {
+  text-align: center;
+}
+.why .title_why {
+  display: flex;
+  margin-top: 40px;
+}
+.why .title_why p {
+  margin-left: 30px;
+}
+
+footer .blue_line {
+  height: 59px;
+  background-color: #2E3192;
+}
+footer .content {
+  height: 260px;
+  width: 1000px;
+  margin: 0% auto;
+  margin-top: 30px;
+  color: #2E3192;
+}
+@media (max-width: 800px) {
+  footer .content {
+    width: 100%;
+  }
+}
+footer .content .logo {
+  text-align: center;
+}
+footer .content img {
+  margin-bottom: 20px;
+}
+footer .content ul li {
+  list-style: none;
+  cursor: pointer;
+}
+footer .content ul .title_link {
+  font-size: 18px;
+  font-weight: 600;
+}
+footer .content ul .title_link_nuber {
+  color: #FF7E00;
+}
+footer .content .iconss {
+  text-align: center;
+}
+
+.card-body {
+  position: relative;
+}
+.card-body .more {
+  position: absolute;
+  top: -20px;
+  left: 70px;
+  background-color: #1DCA0A;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
