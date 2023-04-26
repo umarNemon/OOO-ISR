@@ -221,6 +221,9 @@ footer .content ul .title_link {
 footer .content ul .title_link_nuber {
   color: #FF7E00;
 }
+footer .content ul a {
+  text-decoration: none;
+}
 footer .content .iconss {
   text-align: center;
 }
