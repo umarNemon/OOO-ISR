@@ -212,5 +212,57 @@ footer{
         padding:10px 30px;
         border-radius: 10px;
         color:white;
+        text-decoration: none;
+    }
+}
+.wel_title{
+    margin-top: 200px;
+    @media (max-width:800px) {
+        margin-top: 10px;
+    }
+}
+// Electro page 
+.mainn{
+    position: relative;
+    img{
+        width: 100%;
+    }
+    .mainn_title{
+        position: absolute;
+        top: 270px;
+        left: 120px;
+        z-index: 30;
+        padding: 40px;
+        background-color:#2E3192;
+        color: white;
+        border-radius: 35px 2%;
+        cursor: pointer;
+        @media (max-width:900px) {
+            display: none;
+        }
+    }
+}
+.img_title{
+margin-top: 10px;
+}
+.row-title{
+  margin-left: 15px;
+  font-size: 18px;
+}
+.mp-10{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.ElectroWork{
+    font-size: 18px;
+    .title_electro{
+       font-size: 20px;
+       font-weight: 700;
+       img{
+        margin-right: 5px;
+       }
+    }
+    .display{
+        display: flex;
     }
 }
