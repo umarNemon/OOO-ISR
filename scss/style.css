@@ -300,4 +300,55 @@ footer .content .iconss {
 }
 .ElectroWork .display {
   display: flex;
+}
+
+.Benefit {
+  margin-top: 20px;
+}
+.Benefit .titlee {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.Benefit .list {
+  margin-left: 20px;
+}
+.Benefit .title_two {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.Proect {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.Garant {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.Garant .likeIcon {
+  margin-top: 50px;
+}
+.Garant .likeIcon img {
+  margin-bottom: 30px;
+}
+
+.Labaratory {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.Labaratory h3 {
+  margin-bottom: 50px;
+}
+.Labaratory .electro-bold {
+  font-weight: 700;
+}
+.Labaratory .listLa {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.Labaratory .listLa .titlee {
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -266,3 +266,51 @@ margin-top: 10px;
         display: flex;
     }
 }
+.Benefit{
+    margin-top: 20px;
+    .titlee{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .list{
+        margin-left: 20px;
+    }
+    .title_two{
+        margin-top: 30px;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+}
+.Proect{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.Garant{
+    font-size: 18px;
+    margin-bottom: 100px;
+    .likeIcon{
+        margin-top: 50px;
+        img{
+            margin-bottom: 30px;
+        }
+    }
+
+}
+.Labaratory{
+    font-size: 18px;
+    margin-bottom: 100px;
+    h3{
+        margin-bottom: 50px;
+    }
+    .electro-bold{
+        font-weight: 700;
+    }
+    .listLa{
+        margin-top: 30px;
+        margin-left: 10px;
+        .titlee{
+            margin-left: 10px;
+        }
+    }
+}
