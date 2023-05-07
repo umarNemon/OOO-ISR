@@ -314,3 +314,20 @@ margin-top: 10px;
         }
     }
 }
+.mbb{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.Engineer{
+    font-size: 22px;
+    .listt{
+        margin-bottom: 40px;
+        margin-left: 50px;
+        img{
+            margin-right: 20px;
+        }
+        @media (max-width:500px) {
+            margin-left: 0;
+        }
+    }
+}

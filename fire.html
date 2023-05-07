@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/slick-theme.css" />
+    <link rel="stylesheet" href="./scss/slick.css" />
+    <link rel="stylesheet" href="/scss/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid w-1000">
+            <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="" /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link main active" aria-current="page" href="./index.html">ГЛАВНОЕ</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    УСЛИГИ
+                  </a>
+                  <ul class="dropdown-menu drop_menu">
+                    <li>
+                      <a class="dropdown-item" href="./elektro.html">Электромонтажные работы</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="./fire.html"> Противопожарные системы </a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="./slaba.html"> Слаботочные системы</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="/sanitar.html">Санитарно-технические работы</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="/itp.html"
+                        >Индивидуальные тепловые <br />
+                        пункты (ИТП, ЦТП)</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Монтаж</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Проектирование</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Вентиляция - кондиционирование</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link cursor">КОНТАКТЫ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="tel:+79154289184" class="nav-link cursor number">+7 (915) 428-91-84</a>
+                </li>
+              </ul>
+              <div class="icons cursor">
+                <a href="http://t.me/mahmarizo"><img src="/img/Telegram.png" alt="" /></a>
+                <a href="https://wa.me/+79154289184"><img src="/img/Whatsapp.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="./img/fire/1.jpg" class="d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fire/2.jpg" class="d-block img-fluid  w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/fire/3.jpg" class="d-block img-fluid  w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="WithUs">
+        <div class="container">
+          <div class="row mp-10">
+            <div class="col-12 text-center title_main">
+              <h3>С нами выгодно сотрудничать</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="img_title"><img src="./img/why.svg" alt="" /></div>
+              <div class="row-title">
+                <p>Оптимальная стоимость при обеспечении всех требований проекта.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="img_title"><img src="./img/why.svg" alt="" /></div>
+              <div class="row-title">
+                <p>Инжиниринг, бюджетная оценка стоимости работ, материалов и сопутствующих затрат</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="img_title"><img src="./img/why.svg" alt="" /></div>
+              <div class="row-title">
+                <p>Квалифицированные сотрудники во всех направлениях деятельности компании.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="img_title"><img src="./img/why.svg" alt="" /></div>
+              <div class="row-title">
+                <p>Быстрая поставка материалов для выполнения поставленных задач.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="img_title"><img src="./img/why.svg" alt="" /></div>
+              <div class="row-title">
+                <p>Отдельный штат сотрудников пуско-наладочных работ</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-md-6 col-sm-12 d-flex">
+              <div class="img_title"><img src="./img/why.svg" alt="" /></div>
+              <div class="row-title">
+                <p>Гарантийный срок за выполненную работу.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="ElectroWork">
+        <div class="container">
+          <div class="row mp-10">
+            <div class="col-12 text-center title_main">
+              <h3>Автоматическая пожарная сигнализация</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-lg-6">
+              <p>
+                Автоматическая пожарная сигнализация (АПС) предназначена для обнаружения возгорания или его признаков с последующей передачей сигнала на органы управления сигнализации для оповещения людей о пожаре, включения определённого технологического оборудования (дымоудаление, пожаротушение, разблокировка дверей и т.д.). В проводной АПС сигналы от пожарных извещателей поступают на контрольный прибор по проводам, а в беспроводной — по радиоканалу.                
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-6 d-flex title_electro">
+              <div>
+                <div class="display">
+                  <div><img src="./img/electro/galka.png" alt="" /></div>
+                  <div>
+                    <p>
+                      Гарантийный срок за выполненную <br />
+                      работу устанавливается в соответствии <br />
+                      с требованиями законов и иных <br />
+                      нормативно-правовых актов РФ
+                    </p>
+                  </div>
+                </div>
+                <div class="display">
+                  <div><img src="./img/electro/galka.png" alt="" /></div>
+                  <div>
+                    <p>
+                      Инженерно-технический состав участка <br />
+                      ежегодно проходит аттестацию в <br />
+                      "Ростехнадзоре"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-10 col-lg-6">
+              <p>
+                Принципы работы же в обоих случаях остаются одинаковыми. Аналоговая АПС контролирует целиком шлейф сигнализации, определяя лишь наличие в нём датчика в тревожном состоянии, или отсутствие таковых. Адресная АПС постоянно опрашивает каждый датчик о его состоянии (норма, внимание, пожар, исправность). В отличии от аналоговой АПС, адресная определяет точное место, где зарегистрирован сигнал «Пожар», «Внимание» или «Неисправность».
+            </p>
+            </div>
+             <div class="col-md-4 col-lg-6 d-flex title_electro">
+              <div>
+                <div class="display">
+                  <div><img src="./img/electro/galka.png" alt="" /></div>
+                  <div>
+                    <p>
+                      Собственная зарегистрированная <br />
+                      электролаборатория
+                    </p>
+                  </div>
+                </div>
+                <div class="display">
+                  <div><img src="./img/electro/galka.png" alt="" /></div>
+                  <div>
+                    <p>
+                      Лицензия МЧС России на право <br />
+                      проведения полного комплекса<br />
+                      лицензируемых видов деятельности
+                    </p>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Engineer">
+        <div class="container">
+            <div class="row mbb">
+                <div class="col-12 text-center">
+                    <h4>ООО "Инженерное Системное Решение 03"  выполняет монтаж таких видов пожарной <br> сигнализации как:</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Чтобы обеспечить эффективность — необходим продуманный выбор не только структуры защиты, но и типов охранных датчиков, а также — классов кабелей и шин структуры передачи данных.
+                </div>
+            </div>
+            <div class="row mbb">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Разработка оптимальных проектов.</div>
+                      </div>
+                    <div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Разработка оптимальных проектов.</div>
+                      </div>
+                    <div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Разработка оптимальных проектов.</div>
+                      </div>
+                    <div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Разработка оптимальных проектов.</div>
+                      </div>
+                    <div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Разработка оптимальных проектов.</div>
+                      </div>
+                    <div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Разработка оптимальных проектов.</div>
+                      </div>
+                      <div>
+                        <p>
+                            Для обнаружения признаков возгорания применяются датчики разных типов:
+                        </p>
+                      </div>
+                      <div class="d-flex mbb listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Дымовые линейные — для определения задымлённости на определённом отрезке.</div>
+                      </div><div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Тепловые — для определения резкого повышения допустимой температуры.</div>
+                      </div><div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee">Ручные — для ручного запуска оповещения при визуальном определении возгорания.</div>
+                      </div><div class="d-flex listt">
+                        <div><img  src="./img/electro/galka.png" alt=""></div>
+                        <div class="titlee"> Извещатель пламени — с помощью тепловизора регистрируется наличие открытого огня на объекте.</div>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 mbb">
+                   <img class="img-fluid" src="./img/fire/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <section class="Steps">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Этапы монтажа АПС.</h1>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+                <p>
+                    Монтаж автоматической системы пожарной сигнализации предусматривает не только вполне очевидные этапы и операции, но и меры, цель которых — гарантировать повышенную защищенность системы в целоми возможность быстрого реагирования на поступающие сигналы.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+      <footer>
+        <div class="blue_line"></div>
+        <div class="content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-md-12 logo">
+                <img src="./img/logo.png" alt="" />
+                <div>
+                  <h6>
+                    Электромонтажные, инженерные работы слаботочных и пожарных систем любой сложности
+                    под ключ.
+                  </h6>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3 col-md-12">
+                <ul>
+                  <li class="title_link">Главная</li>
+                  <li class="title_link">Услуги</li>
+                  <li>Электромонтажные работы</li>
+                  <li>Слаботочные системы</li>
+                  <li>Проотивопожарные системы</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-md-12">
+                <ul>
+                  <li class="title_link">Контакты</li>
+                  <a href="tel:+79154289184"><li class="title_link_nuber">+79154289184</li></a>
+                  <a href="tel:+79670775770"><li class="title_link_nuber">+79670775770</li></a>
+                  <li>г. Москва, 2-Я Рошинская ул,</li>
+                  <li>дом 4, помещ. 1а/5э офис 34</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 col-md-12 iconss">
+                <a href=""> <img src="./img/Telegram.png" alt="" /></a>
+                <a href="https://wa.me/+79154289184"> <img src="./img/Whatsapp.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

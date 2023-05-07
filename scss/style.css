@@ -351,4 +351,25 @@ footer .content .iconss {
 }
 .Labaratory .listLa .titlee {
   margin-left: 10px;
+}
+
+.mbb {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.Engineer {
+  font-size: 22px;
+}
+.Engineer .listt {
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+.Engineer .listt img {
+  margin-right: 20px;
+}
+@media (max-width: 500px) {
+  .Engineer .listt {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
