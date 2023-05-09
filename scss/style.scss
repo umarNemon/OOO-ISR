@@ -1,3 +1,6 @@
+*{
+    font-size: 18px;
+}
 header{
     color:#2E3192;
     .navbar{
@@ -329,5 +332,37 @@ margin-top: 10px;
         @media (max-width:500px) {
             margin-left: 0;
         }
+    }
+}
+.card-body{
+    padding: 0 !important;
+}
+.body-card{
+    padding-bottom: 30px !important;
+    padding:10px;
+}
+// fire page
+.font-size{
+    font-size: 20px;
+}
+.reddy{
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    @media (max-width:700px) {
+        margin-left: 0;
+    }
+}
+.titlee{
+    margin-left: 10px;
+}
+.p{
+    margin-bottom: 20px;
+}
+.Last{
+    .listt{
+        margin-bottom: 20px;
+        margin-left: 50px;
+        font-size: 20px;
     }
 }
