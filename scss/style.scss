@@ -26,6 +26,11 @@ header{
         }
       
     }
+    .icons{
+        img{
+            width: 39px;
+        }
+    }
 }
 .navbar-toggler{
    background-image: url("/img/menu.svg");
@@ -161,6 +166,9 @@ header{
     p{
         margin-left: 30px;
     }
+    img{
+        margin-top: 15px;
+    }
 }
 }
 footer{
@@ -202,6 +210,9 @@ footer{
         }
         .iconss{
             text-align: center;
+            img{
+                width: 50px;
+            }
         }
     }
 }

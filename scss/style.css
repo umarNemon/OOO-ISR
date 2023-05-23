@@ -29,6 +29,9 @@ header .navbar .nav-item .number {
 header .navbar .drop_menu {
   font-size: 14px;
 }
+header .icons img {
+  width: 39px;
+}
 
 .navbar-toggler {
   background-image: url("/img/menu.svg");
@@ -191,6 +194,9 @@ header .navbar .drop_menu {
 .why .title_why p {
   margin-left: 30px;
 }
+.why .title_why img {
+  margin-top: 15px;
+}
 
 footer .blue_line {
   height: 59px;
@@ -230,6 +236,9 @@ footer .content ul a {
 }
 footer .content .iconss {
   text-align: center;
+}
+footer .content .iconss img {
+  width: 50px;
 }
 
 .card-body {
