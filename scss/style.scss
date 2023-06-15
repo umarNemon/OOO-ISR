@@ -1,5 +1,5 @@
 *{
-    font-size: 18px;
+    font-size: 16px;
 }
 header{
     color:#2E3192;
@@ -103,8 +103,9 @@ header{
     }
 }
 .slicc{
-    height: 700px;
+    height: auto;
     text-align: center;
+    margin-bottom: 80px;
     h2{
         margin-bottom: 30px;
     }
@@ -123,6 +124,7 @@ header{
     }
     .card{
         margin-left: 30px;
+        margin-top: 30px;
         @media (max-width:600px) {
             margin-left: 50px;
         }
