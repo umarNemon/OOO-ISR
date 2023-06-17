@@ -109,11 +109,11 @@ header .icons img {
 }
 
 .title_main, .title {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 @media (max-width: 770px) {
   .title_main, .title {
-    padding-top: 30px;
+    padding-top: 60px;
   }
 }
 
@@ -146,7 +146,7 @@ header .icons img {
 }
 @media (max-width: 600px) {
   .slider .card {
-    margin-left: 20px;
+    margin-left: 25px;
   }
 }
 .slider .slick-prev {
@@ -248,13 +248,17 @@ footer .content .iconss img {
 }
 .card-body .more {
   position: absolute;
-  top: -20px;
+  top: 20px;
   left: 70px;
-  background-color: #1DCA0A;
+  background-color: #94c98f;
   padding: 10px 30px;
   border-radius: 10px;
-  color: white;
+  color: black;
+  font-weight: 600;
   text-decoration: none;
+}
+.card-body .more:hover {
+  background-color: green;
 }
 
 .wel_title {
@@ -444,4 +448,8 @@ footer .content .iconss img {
 }
 .Primer h4 {
   margin-bottom: 40px;
+}
+
+.Sani {
+  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */

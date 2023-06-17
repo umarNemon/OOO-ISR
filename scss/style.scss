@@ -97,9 +97,9 @@ header{
 
 }
 .title_main,.title{
-    padding-top: 30px;
+    padding-top: 60px;
     @media (max-width:770px){
-        padding-top: 30px;
+        padding-top: 60px;
     }
 }
 .slicc{
@@ -126,7 +126,7 @@ header{
         margin-left: 20px;
         margin-top: 30px;
         @media (max-width:600px) {
-            margin-left: 20px;
+            margin-left: 25px;
         }
     }
     .slick-prev {
@@ -222,14 +222,18 @@ footer{
     position: relative;
     .more{
         position: absolute;
-        top: -20px;
+        top: 20px;
         left: 70px;
-        background-color:#1DCA0A;
+        background-color:#94c98f;    
         padding:10px 30px;
         border-radius: 10px;
-        color:white;
+        color:black;
+        font-weight: 600;
         text-decoration: none;
-    }
+   }
+   .more:hover{
+    background-color:green;
+   }
 }
 .wel_title{
     margin-top: 200px;
@@ -397,4 +401,7 @@ margin-top: 10px;
     h4{
         margin-bottom: 40px;
     }
+}
+.Sani{
+    margin-bottom: 100px;
 }
