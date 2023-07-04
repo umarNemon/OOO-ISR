@@ -200,16 +200,18 @@ header .icons img {
   margin-top: 15px;
 }
 
+footer {
+  background-color: #2F4F4F;
+}
 footer .blue_line {
   height: 59px;
-  background-color: #2E3192;
 }
 footer .content {
   height: 260px;
   width: 1000px;
   margin: 0% auto;
   margin-top: 30px;
-  color: #2E3192;
+  color: white;
 }
 @media (max-width: 800px) {
   footer .content {
@@ -225,6 +227,7 @@ footer .content img {
 footer .content ul li {
   list-style: none;
   cursor: pointer;
+  font-size: 18px;
 }
 footer .content ul .title_link {
   font-size: 18px;
