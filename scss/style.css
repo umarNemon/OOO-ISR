@@ -209,7 +209,7 @@ header .icons img {
 }
 
 footer {
-  background-color: #2F4F4F;
+  background-color: #f3e563;
   height: auto;
 }
 footer .blue_line {
@@ -221,7 +221,7 @@ footer .content {
   margin: 0% auto;
   margin-top: 20px;
   padding-bottom: 70px;
-  color: white;
+  color: black;
 }
 @media (max-width: 800px) {
   footer .content {

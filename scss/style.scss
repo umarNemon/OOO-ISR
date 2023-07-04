@@ -186,7 +186,8 @@ header{
 }
 }
 footer{
-    background-color:#2F4F4F;
+    // background-color:#2F4F4F;
+    background-color:#f3e563;
     height: auto;
     .blue_line{
         height: 59px;
@@ -198,11 +199,12 @@ footer{
         margin: 0% auto;
         margin-top: 20px;
         padding-bottom: 70px;
-        color:white;
+        color:black;
         @media (max-width:800px) {
             width: 100%;
         }
         .logo{
+            // padding-top: -20px;
             img{
                 width: 150px;
             }
