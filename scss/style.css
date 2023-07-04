@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Playfair+Display&display=swap");
 * {
-  font-size: 16px;
+  font-family: "Oswald";
 }
 
 header {
@@ -9,7 +10,7 @@ header .navbar {
   padding-top: 0;
   padding-bottom: 0;
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
 }
 header .navbar .w-1000 {
@@ -17,6 +18,8 @@ header .navbar .w-1000 {
 }
 header .navbar .nav-item {
   margin-left: 70px;
+  font-family: "Oswald";
+  font-weight: 700;
 }
 @media (max-width: 992px) {
   header .navbar .nav-item {
@@ -44,7 +47,7 @@ header .icons img {
 }
 
 .slidd {
-  height: 781px;
+  height: 700px;
   background-color: #2E3192;
   color: white;
 }
@@ -118,6 +121,8 @@ header .icons img {
 }
 
 .slicc {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
   height: auto;
   text-align: center;
   margin-bottom: 80px;
@@ -202,6 +207,7 @@ header .icons img {
 
 footer {
   background-color: #2F4F4F;
+  height: auto;
 }
 footer .blue_line {
   height: 59px;
@@ -242,6 +248,9 @@ footer .content ul a {
 footer .content .iconss {
   text-align: center;
 }
+footer .content .iconss .what {
+  margin-left: 10px;
+}
 footer .content .iconss img {
   width: 50px;
 }
@@ -262,13 +271,17 @@ footer .content .iconss img {
 }
 .card-body .more:hover {
   background-color: green;
+  color: white;
 }
 
-.wel_title {
-  margin-top: 200px;
+.welcome h2 {
+  margin-top: 30px;
+}
+.welcome .wel_title {
+  margin-top: 120px;
 }
 @media (max-width: 800px) {
-  .wel_title {
+  .welcome .wel_title {
     margin-top: 10px;
   }
 }

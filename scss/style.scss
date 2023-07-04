@@ -1,19 +1,27 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Playfair+Display&display=swap');
+
+
 *{
-    font-size: 16px;
+    // font-size: 16px;
+    font-family: 'Oswald'; 
 }
 header{
     color:#2E3192;
+    
     .navbar{
         padding-top: 0;
         padding-bottom: 0;
         font-family: 'Montserrat';
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 500;
         .w-1000{
             width: 1000px;
         }
         .nav-item{
             margin-left: 70px;
+            font-family: 'Oswald';
+            font-weight: 700;
             @media (max-width: 992px) {
                 margin-left: 0%;
             }
@@ -41,7 +49,7 @@ header{
     cursor: pointer;
 }
 .slidd{
-    height: 781px;
+    height: 700px;
     background-color: #2E3192;
     color: white;
      @media (max-width:770px) {
@@ -63,6 +71,7 @@ header{
             width: 100%;
         }
         .title{
+            
             width: 350px;
             padding-top: 190px ;
             @media (max-width:770px) {
@@ -103,6 +112,8 @@ header{
     }
 }
 .slicc{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     height: auto;
     text-align: center;
     margin-bottom: 80px;
@@ -175,6 +186,7 @@ header{
 }
 footer{
     background-color:#2F4F4F;
+    height: auto;
     .blue_line{
         height: 59px;
         // background-color:#2E3192;
@@ -214,6 +226,9 @@ footer{
         }
         .iconss{
             text-align: center;
+            .what{
+              margin-left: 10px;
+            }
             img{
                 width: 50px;
             }
@@ -235,14 +250,21 @@ footer{
    }
    .more:hover{
     background-color:green;
+    color:white;
    }
 }
-.wel_title{
-    margin-top: 200px;
-    @media (max-width:800px) {
-        margin-top: 10px;
+.welcome{
+    h2{
+        margin-top: 30px;
+    }
+    .wel_title{
+        margin-top: 120px;
+        @media (max-width:800px) {
+            margin-top: 10px;
+        }
     }
 }
+
 // Electro page 
 .mainn{
     position: relative;
