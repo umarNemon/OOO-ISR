@@ -216,10 +216,11 @@ footer .blue_line {
   height: 59px;
 }
 footer .content {
-  height: 260px;
+  height: auto;
   width: 1300px;
   margin: 0% auto;
-  margin-top: 30px;
+  margin-top: 20px;
+  padding-bottom: 70px;
   color: white;
 }
 @media (max-width: 800px) {
@@ -231,7 +232,7 @@ footer .content .logo {
   text-align: center;
 }
 footer .content .logo img {
-  width: 100px;
+  width: 150px;
 }
 footer .content img {
   margin-bottom: 20px;
@@ -252,7 +253,7 @@ footer .content ul a {
   text-decoration: none;
 }
 footer .content .iconss {
-  text-align: center;
+  margin-top: 180px;
 }
 footer .content .iconss .what {
   margin-left: 10px;
