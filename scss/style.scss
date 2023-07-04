@@ -10,8 +10,8 @@ header{
     color:#2E3192;
     
     .navbar{
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-family: 'Montserrat';
         font-size: 20px;
         font-weight: 500;
@@ -88,6 +88,7 @@ header{
             }
         }
         .item{
+            padding-top: 40px;
             img{
                 @media (max-width:770px) {
                     width: 500px;
@@ -193,7 +194,7 @@ footer{
     }
     .content{
         height: 260px;
-        width: 1000px;
+        width: 1300px;
         margin: 0% auto;
         margin-top: 30px;
         color:white;
@@ -201,6 +202,9 @@ footer{
             width: 100%;
         }
         .logo{
+            img{
+                width: 100px;
+            }
             text-align: center;
         }
         img{
@@ -214,7 +218,7 @@ footer{
                 
             }
             .title_link{
-                font-size: 18px;
+                font-size: 23px;
                 font-weight: 600;
             }
             .title_link_nuber{
@@ -233,6 +237,16 @@ footer{
                 width: 50px;
             }
         }
+    }
+    .foot_title{
+        ul{
+             li{
+                font-size: 23px;
+            }
+        }
+    }
+    .footLogoTitle{
+        font-size: 23px;
     }
 }
 .card-body{

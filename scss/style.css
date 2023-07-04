@@ -7,8 +7,8 @@ header {
   color: #2E3192;
 }
 header .navbar {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 500;
@@ -95,6 +95,9 @@ header .icons img {
 }
 .slidd .slidd_width .title h4 {
   padding-bottom: 40px;
+}
+.slidd .slidd_width .item {
+  padding-top: 40px;
 }
 @media (max-width: 770px) {
   .slidd .slidd_width .item img {
@@ -214,7 +217,7 @@ footer .blue_line {
 }
 footer .content {
   height: 260px;
-  width: 1000px;
+  width: 1300px;
   margin: 0% auto;
   margin-top: 30px;
   color: white;
@@ -227,6 +230,9 @@ footer .content {
 footer .content .logo {
   text-align: center;
 }
+footer .content .logo img {
+  width: 100px;
+}
 footer .content img {
   margin-bottom: 20px;
 }
@@ -236,7 +242,7 @@ footer .content ul li {
   font-size: 18px;
 }
 footer .content ul .title_link {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 600;
 }
 footer .content ul .title_link_nuber {
@@ -253,6 +259,12 @@ footer .content .iconss .what {
 }
 footer .content .iconss img {
   width: 50px;
+}
+footer .foot_title ul li {
+  font-size: 23px;
+}
+footer .footLogoTitle {
+  font-size: 23px;
 }
 
 .card-body {
