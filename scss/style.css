@@ -228,11 +228,9 @@ footer .content {
     width: 100%;
   }
 }
-footer .content .logo {
-  text-align: center;
-}
 footer .content .logo img {
-  width: 150px;
+  margin-top: -40px;
+  width: 250px;
 }
 footer .content img {
   margin-bottom: 20px;
@@ -253,7 +251,7 @@ footer .content ul a {
   text-decoration: none;
 }
 footer .content .iconss {
-  margin-top: 180px;
+  margin-top: 20px;
 }
 footer .content .iconss .what {
   margin-left: 10px;
@@ -265,6 +263,7 @@ footer .foot_title ul li {
   font-size: 23px;
 }
 footer .footLogoTitle {
+  margin-top: 34px;
   font-size: 23px;
 }
 

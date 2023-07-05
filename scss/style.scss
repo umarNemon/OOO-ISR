@@ -206,9 +206,10 @@ footer{
         .logo{
             // padding-top: -20px;
             img{
-                width: 150px;
+                margin-top: -40px;
+                width: 250px;
             }
-            text-align: center;
+            // text-align: center;
         }
         img{
             margin-bottom: 20px;
@@ -233,7 +234,7 @@ footer{
         }
         .iconss{
             // text-align: center;
-            margin-top: 180px;
+            margin-top: 20px;
             .what{
               margin-left: 10px;
             }
@@ -250,6 +251,7 @@ footer{
         }
     }
     .footLogoTitle{
+        margin-top: 34px;
         font-size: 23px;
     }
 }
