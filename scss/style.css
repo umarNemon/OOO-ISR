@@ -303,27 +303,8 @@ footer .footLogoTitle {
   }
 }
 
-.mainn {
-  position: relative;
-}
 .mainn img {
   width: 100%;
-}
-.mainn .mainn_title {
-  position: absolute;
-  top: 270px;
-  left: 120px;
-  z-index: 30;
-  padding: 40px;
-  background-color: #2E3192;
-  color: white;
-  border-radius: 35px 2%;
-  cursor: pointer;
-}
-@media (max-width: 900px) {
-  .mainn .mainn_title {
-    display: none;
-  }
 }
 
 .img_title {
@@ -512,7 +493,7 @@ footer .footLogoTitle {
 
 .logis {
   width: 115px;
-  height: 105px;
+  height: 95px;
 }
 
 .text_list {

@@ -291,24 +291,11 @@ footer{
 
 // Electro page 
 .mainn{
-    position: relative;
+
     img{
         width: 100%;
     }
-    .mainn_title{
-        position: absolute;
-        top: 270px;
-        left: 120px;
-        z-index: 30;
-        padding: 40px;
-        background-color:#2E3192;
-        color: white;
-        border-radius: 35px 2%;
-        cursor: pointer;
-        @media (max-width:900px) {
-            display: none;
-        }
-    }
+   
 }
 .img_title{
 margin-top: 10px;
@@ -477,7 +464,7 @@ margin-top: 10px;
 }
 .logis{
     width: 115px;
-    height: 105px;
+    height: 95px;
 }
 .text_list{
     display: flex;
