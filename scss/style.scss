@@ -203,13 +203,15 @@ footer{
         @media (max-width:800px) {
             width: 100%;
         }
-        .logo{
-            // padding-top: -20px;
+        .logoss{
+            
+            text-align: center;
+
             img{
                 margin-top: -40px;
                 width: 250px;
             }
-            // text-align: center;
+          
         }
         img{
             margin-bottom: 20px;
@@ -233,7 +235,7 @@ footer{
             }
         }
         .iconss{
-            // text-align: center;
+            
             margin-top: 20px;
             .what{
               margin-left: 10px;
@@ -253,6 +255,8 @@ footer{
     .footLogoTitle{
         margin-top: 34px;
         font-size: 23px;
+        padding-left: 30px;
+        margin-bottom: 15px;
     }
 }
 .card-body{
@@ -322,6 +326,10 @@ margin-top: 10px;
     .title_electro{
        font-size: 20px;
        font-weight: 700;
+       @media (max-width:770px) {
+        padding-top: 40px;
+    }
+   
        img{
         margin-right: 5px;
        }
@@ -448,4 +456,18 @@ margin-top: 10px;
 }
 .Sani{
     margin-bottom: 100px;
+}
+.odel_list{
+    .titlee{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
+.odel_card{
+    display: flex;
+    justify-content: center;
+    padding-right: 74px;
+    @media (max-width:700px) {
+       padding-left: 0;
+    }
 }
