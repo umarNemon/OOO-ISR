@@ -466,8 +466,12 @@ margin-top: 10px;
 .odel_card{
     display: flex;
     justify-content: center;
-    padding-right: 74px;
+
     @media (max-width:700px) {
-       padding-left: 0;
+        display: block;
     }
+     .card{
+      margin-right: 73px;
+     }
+    
 }

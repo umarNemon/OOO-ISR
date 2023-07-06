@@ -500,10 +500,12 @@ footer .footLogoTitle {
 .odel_card {
   display: flex;
   justify-content: center;
-  padding-right: 74px;
 }
 @media (max-width: 700px) {
   .odel_card {
-    padding-left: 0;
+    display: block;
   }
+}
+.odel_card .card {
+  margin-right: 73px;
 }/*# sourceMappingURL=style.css.map */
