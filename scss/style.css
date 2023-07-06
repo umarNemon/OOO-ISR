@@ -511,6 +511,11 @@ footer .footLogoTitle {
 }
 
 .logis {
-  width: 85px;
-  height: 95px;
+  width: 115px;
+  height: 105px;
+}
+
+.text_list {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
